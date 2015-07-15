@@ -1,0 +1,15 @@
+{
+    "version": "0.3.2",
+    "description": "简单的table封装,实现了客户端分页显示,排序,筛选等功能",
+    "name": "ng-table",
+    "main": "ng-table.js",
+    "dependencies": [
+        "angular"
+    ],
+    "shim": {
+        "ng-table.js": {
+            "deps": ["angular"],
+            "exports": "'ngTable'"
+        }
+    }
+}
