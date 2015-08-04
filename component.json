@@ -4,7 +4,8 @@
     "name": "ng-table",
     "main": "ng-table.js",
     "dependencies": [
-        "angular"
+        "angular",
+        "css"
     ],
     "shim": {
         "ng-table.js": {

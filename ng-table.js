@@ -1,4 +1,6 @@
-//@require ng-table.css
+
+require("css!ng-table.css");
+
 (function(angular, factory) {
     'use strict';
 
