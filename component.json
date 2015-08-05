@@ -9,7 +9,7 @@
     ],
     "shim": {
         "ng-table.js": {
-            "deps": ["angular"],
+            "deps": ["angular", "css!ng-table.css"],
             "exports": "'ngTable'"
         }
     }
