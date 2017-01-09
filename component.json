@@ -4,12 +4,11 @@
     "name": "ng-table",
     "main": "ng-table.js",
     "dependencies": [
-        "angular",
-        "css"
+        "angular"
     ],
     "shim": {
         "ng-table.js": {
-            "deps": ["angular", "css!ng-table.css"],
+            "deps": ["angular", "ng-table.css"],
             "exports": "'ngTable'"
         }
     }
